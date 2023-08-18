@@ -8,7 +8,7 @@ ORDER BY customer_id
 
 SELECT DATE(payment_date), SUM(amount) FROM payment
 GROUP BY DATE(payment_date)
-ORDER BY SUM(amount) DESC 
+ORDER BY SUM(amount) DESC <br>
 ![image](https://github.com/hubost/Complete-SQL-Bootcamp/assets/103451733/18b30efc-e126-471a-af95-f196ff509009)
 
 SELECT rating, ROUND(AVG(replacement_cost),16) FROM film
