@@ -1,5 +1,5 @@
 # Complete-SQL-Bootcamp
-<h2> Some of the queries used in Udemy course by Jose Portilla </h2>
+<h2> Some of the queries created in Udemy course by Jose Portilla </h2>
 
 SELECT customer_id, staff_id, SUM(amount) FROM payment
 GROUP BY staff_id, customer_id
