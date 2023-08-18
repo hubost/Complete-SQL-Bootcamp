@@ -13,7 +13,7 @@ ORDER BY SUM(amount) DESC <br>
 
 SELECT rating, ROUND(AVG(replacement_cost),16) FROM film
 GROUP BY rating
-ORDER BY AVG(replacement_cost) DESC
+ORDER BY AVG(replacement_cost) DESC <br>
 ![image](https://github.com/hubost/Complete-SQL-Bootcamp/assets/103451733/14250a94-9167-4b6f-a80f-af2e3c028b3f)
 
 SELECT customer_id,staff_id, SUM(amount) FROM payment
